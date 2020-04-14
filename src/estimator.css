@@ -1,0 +1,27 @@
+body {
+    background-color: blueviolet;
+    
+    color: white;
+}
+header {
+    text-align: center;
+}
+form {
+    margin: auto;
+    width: 70%;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+}
+input {
+    width: 97%;
+    margin: 10px;
+    height: 30px;
+    border-radius: 10px;
+}
+#submit{
+    background-color: teal;
+}
+#days {
+    margin-left:10px;
+}
