@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>COVID-19 Infection Extimator</title>
+        <link rel="stylesheet" type="text/css"href="estimator.css">
+        <link type="script" href="estimator.js">
+    </head>
+    <body>
+        <header>
+            <h1>COVID-19 Infection Extimator</h1>
+            <p>This app simply helps to estimate the effect of the corona virus pandemic form the data 
+                you will be required to input
+            </p>
+        </header>
+        <section>
+           
+            <form action="estimator.js" id="my-form">
+                <label for="population">Enter the population of your area <br>
+                    <input type="number" id="population" placeholder="Population" required>
+                </label>Enter the time to elapse <br>
+                <label for="timeToElapse">
+                    <input type="number" id="timeToElapse" placeholder="Time to elapse" required>
+                </label>Enter the number of reported cases
+                <label for="reportedCases">
+                    <input type="number" id="reportedCases" placeholder="Reported cases" required>
+                </label>Enter the total number of hospital beds
+                <label for="totalHospitalBeds">
+                    <input type="number" id="totalHospitalBeds" placeholder="Total hospital beds" required>
+                </label>
+                
+                <label for="days"> What period type have you entered your time?
+                    <input type="radio" id="days" name="periodType" value="days" checked>Days
+                </label>
+                <label for="weeks">
+                    <input type="radio" id="weeks" name="periodType" value="weeks">Weeks
+                </label>
+                <label for="months">
+                    <input type="radio" id="months" name="periodType" value="months">Months
+                </label>
+                <input type="submit" id="submit" placeholder="Submit">
+            </form>
+        </section>
+    </body>
+</html>
